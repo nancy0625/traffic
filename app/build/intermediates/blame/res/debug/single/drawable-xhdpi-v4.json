@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\green.xml",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\green.xml"
+    },
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\white.xml",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\white.xml"
+    }
+]

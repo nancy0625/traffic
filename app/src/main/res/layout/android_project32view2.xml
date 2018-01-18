@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="提示"
+                android:textColor="@color/greeen"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/red"
+                android:text="请问你真的要取消充值吗，可能会影响你的正常使用？"/>
+            <CheckBox
+                android:id="@+id/cb_project32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="下次不要再弹出来"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+         >
+            <Button
+                android:id="@+id/ppbtn_project32"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:background="@color/red"
+                android:layout_weight="0.08" />
+            <Button
+                android:id="@+id/nnbtn_project32"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="取消"
+                android:textColor="@color/white"
+                android:background="@color/red"
+                android:layout_marginBottom="50dp"
+                android:layout_weight="0.08" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

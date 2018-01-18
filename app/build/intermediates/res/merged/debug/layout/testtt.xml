@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/spinner"/>
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/spinner"/>
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/spinner"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+        <Button
+            android:background="@color/light_blue"
+            android:id="@+id/btn_tv"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="查询"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_1"
+            android:layout_centerHorizontal="true" />
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/tv_3">
+            <TextView
+                android:text=""
+                android:id="@+id/tv_5"
+                android:layout_width="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:text=""
+                android:id="@+id/tv_6"
+                android:background="@drawable/white"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_5"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tv_1">
+            <TextView
+                android:text=""
+                android:id="@+id/tv_7"
+                android:layout_width="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text=""
+                android:gravity="center"
+                android:id="@+id/tv_8"
+                android:background="@drawable/white"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_7"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_7" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/tv_9"
+                android:layout_width="60dp"
+                android:layout_marginTop="20dp"
+                android:text=""
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_10"
+                android:text=""
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:background="@drawable/white"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_9"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/tv_9" />
+        </RelativeLayout>
+        <TextView
+            android:text="单击查询按钮，显示当前CO2，温度，湿度的环境值，并且播放动画，当环境变量超过阈值时，背景显示红色，否则为绿色"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="27dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

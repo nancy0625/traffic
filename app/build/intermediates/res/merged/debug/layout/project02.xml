@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="空气温度" />
+
+            <TextView
+                android:id="@+id/tv01"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:background="@drawable/green"
+                android:gravity="center"
+                android:text="1111" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="空气湿度" />
+
+            <TextView
+                android:id="@+id/tv02"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv2"
+                android:background="@drawable/green"
+                android:gravity="center"
+                android:text="1111" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="光照" />
+
+            <TextView
+                android:id="@+id/tv03"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/tv3"
+                android:background="@drawable/green"
+                android:gravity="center"
+                android:text="1111" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="130dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="CO2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv4" />
+            <TextView
+                android:id="@+id/tv04"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="1111"
+                android:background="@drawable/green"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/tv4" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="130dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="PM2.5"
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv5" />
+            <TextView
+                android:id="@+id/tv05"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="1111"
+                android:background="@drawable/green"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/tv5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="130dp"
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="道路状态"
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv6" />
+            <TextView
+                android:id="@+id/tv06"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="1111"
+                android:background="@drawable/green"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/tv6" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

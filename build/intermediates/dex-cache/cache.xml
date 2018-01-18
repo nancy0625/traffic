@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_edf6f180d716ede4aefdf5053dda821c53f1af96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\libs\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.8.0_5eca9812c66e0c89bdca22af8841085f081291cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\libs\android-async-http-1.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.3_cb555e970a571ff92a99d49fef1addbf26bd1e5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b5b6e706cc0d13483f5e2b76712d714ce8b7629">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_a6f0eaacd4f001b9cf00d3d8338dcad1c3201553\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\libs\MPAndroidChart-v2.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\2\MPAndroidChart-v2.1.5_ef60e402a52d5241c7eafa7cc8b7bb96c474fa4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android-studio\TrafficClient\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b811ea145a5249a7a58849ec7c2d3a1326d8c122">
+        <dex dex="D:\Android-studio\TrafficClient\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6297f362504a3f404bf67dffa1a09969fddfdfc5\classes.dex" />
+    </item>
+
+</items>

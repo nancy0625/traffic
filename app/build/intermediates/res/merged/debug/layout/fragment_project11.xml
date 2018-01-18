@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:text="排序方式"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/spinner_project11" />
+
+        <Spinner
+            android:id="@+id/spinner_project11"
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="163dp"></Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:id="@+id/tv111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:text="车号" />
+
+        <TextView
+            android:id="@+id/tv112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="147dp"
+            android:background="@color/light_gray"
+            android:text="进入时间"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv111" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:text="Money"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="115dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_project11"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_weight="1.07"></ListView>
+
+    <Button
+        android:id="@+id/btn_project11"
+        android:text="查询"
+        android:onClick="btn_project"
+        android:textColor="@color/white"
+        android:background="@color/light_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

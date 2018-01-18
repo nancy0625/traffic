@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+
+            <Button
+                android:id="@+id/btn"
+                android:onClick="add"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorBlue"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:text="查询" />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/textZhou"
+            android:gravity="center"></Spinner>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="账户余额为："/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/textZhou"
+            android:gravity="center"></Spinner>
+        <EditText
+            android:id="@+id/ed_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:hint="请输入金额"/>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/chongzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="chongzhi"
+        android:text="充值"/>
+
+</LinearLayout>

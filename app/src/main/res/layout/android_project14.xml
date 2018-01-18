@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_weight="0.08"
+            android:id="@+id/guangtv"
+            android:layout_marginLeft="150dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="光照强度查询"/>
+        <LinearLayout
+           android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+
+                android:id="@+id/guangbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="查询"/>
+            <TextView
+            android:layout_weight="0.08"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/guangzhaotext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="11"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+
+            android:layout_marginLeft="180dp"
+            android:textStyle="bold"
+            android:id="@+id/guangtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置自动手动控制模式"
+            />
+
+        <Switch
+            android:id="@+id/aSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="280dp"
+            android:layout_marginLeft="150dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

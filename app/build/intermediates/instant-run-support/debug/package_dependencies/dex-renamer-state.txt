@@ -1,0 +1,16 @@
+#Fri Jan 12 09:27:22 CST 2018
+renamed.4=classes2.dex
+renamed.3=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes5.dex
+base.4=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-async-http-1.4.3_cb555e970a571ff92a99d49fef1addbf26bd1e5d
+renamed.0=classes4.dex
+base.3=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_0ff96e299536e586a2d1883785e864bad87495c5
+base.2=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\gson-2.8.0_5eca9812c66e0c89bdca22af8841085f081291cb
+base.1=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_a6f0eaacd4f001b9cf00d3d8338dcad1c3201553
+base.0=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\MPAndroidChart-v2.1.5_ef60e402a52d5241c7eafa7cc8b7bb96c474fa4a
+file.4=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-async-http-1.4.3_cb555e970a571ff92a99d49fef1addbf26bd1e5d\\classes.dex
+file.3=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-19.1.0_0ff96e299536e586a2d1883785e864bad87495c5\\classes.dex
+file.2=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\gson-2.8.0_5eca9812c66e0c89bdca22af8841085f081291cb\\classes.dex
+file.1=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_a6f0eaacd4f001b9cf00d3d8338dcad1c3201553\\classes.dex
+file.0=D\:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\MPAndroidChart-v2.1.5_ef60e402a52d5241c7eafa7cc8b7bb96c474fa4a\\classes.dex

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.25">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:text="光照强度查询"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_project14"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="150dp"
+            android:layout_toLeftOf="@+id/tv01_project14"
+            android:text="查询" />
+
+        <TextView
+            android:id="@+id/tv01_project14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_project14"
+            android:layout_alignBottom="@+id/btn_project14"
+            android:layout_alignParentRight="true"
+
+            android:text="" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.40">
+
+        <TextView
+            android:id="@+id/tv02_project14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:text="设置自动手动控制模式"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:textOff="自动"
+            android:textOn="手动"
+            android:id="@+id/switch_project14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150dp"
+            android:layout_below="@+id/tv02_project14"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

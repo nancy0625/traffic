@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="登录"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/textView" />
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/setting"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语言"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="19dp"
+            android:id="@+id/textView2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etuser_project29"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="请输入用户名" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/etpwd_project29"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:password="true"
+            android:hint="请输入密码" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.15"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnregister_project41"
+                android:layout_width="115dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:clickable="true"
+                android:text="注册新账号" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnfind_project41"
+                android:layout_width="124dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="找回密码" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="0.20">
+
+        <Button
+            android:id="@+id/btn_internet_project29"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.08"
+            android:text="登录"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

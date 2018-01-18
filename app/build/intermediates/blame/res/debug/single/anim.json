@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\anim\\in.xml"
+    },
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\anim\\out.xml"
+    }
+]

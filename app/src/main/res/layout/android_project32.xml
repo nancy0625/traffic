@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+
+   android:layout_gravity="center"
+>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户余额："/>
+        <TextView
+
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/smoney_project32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="55元"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车       号："/>
+        <Spinner
+            android:layout_marginLeft="50dp"
+            android:id="@+id/spinner_project32"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"></Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值金额："/>
+        <TextView
+            android:id="@+id/tv_setmoney_project32"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="100元"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/serach_project32"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="查询"
+
+          />
+        <Button
+            android:id="@+id/setMoney_project32"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="充值"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/time_project32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充值时间:" />
+
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:id="@+id/money_project32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充值金额:" />
+
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:id="@+id/car_project32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充值车号:" />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+
+            android:id="@+id/pbtn_project32"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="50dp"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:background="@color/red"/>
+        <Button
+            android:id="@+id/nbtn_project32"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="100dp"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

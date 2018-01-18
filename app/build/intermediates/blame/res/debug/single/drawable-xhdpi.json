@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang_1.png",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\touxiang_1.png"
+    },
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\touxiang_2.png",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\touxiang_2.png"
+    },
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\background.png",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+    },
+    {
+        "merged": "D:\\Android-studio\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "D:\\Android-studio\\TrafficClient\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t1_p5"
+            android:text="传感器"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:id="@+id/t2_p5"
+            android:text="数据"
+            android:layout_toRightOf="@id/t1_p5"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:text="是否正常"
+            android:id="@+id/t3_p5"
+            android:layout_toRightOf="@id/t2_p5"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:id="@+id/t4_p5"
+            android:text="时间"
+            android:layout_toRightOf="@id/t3_p5"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+
+
+</LinearLayout>

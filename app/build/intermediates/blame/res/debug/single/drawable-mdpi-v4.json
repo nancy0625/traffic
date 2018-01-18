@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\load1.jpg",
+        "source": "E:\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\load1.jpg"
+    },
+    {
+        "merged": "E:\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\load2.jpg",
+        "source": "E:\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\load2.jpg"
+    },
+    {
+        "merged": "E:\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\load3.jpg",
+        "source": "E:\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\load3.jpg"
+    },
+    {
+        "merged": "E:\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\blue.xml",
+        "source": "E:\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\blue.xml"
+    },
+    {
+        "merged": "E:\\TrafficClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\load.jpg",
+        "source": "E:\\TrafficClient\\app\\src\\main\\res\\drawable-mdpi\\load.jpg"
+    }
+]

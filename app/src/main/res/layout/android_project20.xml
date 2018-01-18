@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ETC通行日志"/>
+        <Button
+            android:id="@+id/btnsearch_project20"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:text="查询:"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#dedcd2"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_margin="0.5dip"
+                android:background="#dedcd2" >
+
+                <TextView
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:text="车牌号"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:text="进入时间"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+                <TextView
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:text="出关时间"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:background="#ffffff"
+                    android:text="费用"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+        <ListView
+            android:id="@+id/lv_project20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_project20"
+            android:text="保存到数据库"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

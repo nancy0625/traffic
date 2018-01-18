@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.13">
+
+        <TextView
+            android:id="@+id/tv1_p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="传感器类型" />
+
+        <Spinner
+            android:id="@+id/spinner1_project5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv1_p5"></Spinner>
+
+        <TextView
+            android:id="@+id/tv2_p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/spinner1_project5"
+            android:text="查询周期" />
+
+        <Spinner
+            android:id="@+id/spinner2_project5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv2_p5"></Spinner>
+
+        <Button
+            android:id="@+id/btn1_p5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="94dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/t1"
+            android:text="传感器"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:id="@+id/t2"
+            android:text="数据"
+            android:layout_toRightOf="@id/t1"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:text="是否正常"
+            android:id="@+id/t3"
+            android:layout_toRightOf="@id/t2"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+        <TextView
+            android:text="时间"
+            android:layout_toRightOf="@id/t3"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_p5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"></ListView>
+
+</LinearLayout>
